@@ -1,7 +1,7 @@
 
 //Setup Stripe
 var Stripe = require('stripe');
-Stripe.initialize('sk_test_193nrUQjYb2foSDVGqpMIA11');
+Stripe.initialize('sk_test_uhfZ9lhMa1Dxwvr2VFn0rdmt');
 
 
 
