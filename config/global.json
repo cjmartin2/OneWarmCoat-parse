@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "_default": {
+            "link": "prod_one_warm_coat"
+        }, 
+        "prod_one_warm_coat": {
+            "applicationId": "c8IKIZkRcbkiMkDqdxkM4fKrBymrX7p7glVQ6u8d", 
+            "masterKey": "auCTwxmFyuA1ZVQGOUahkBCz3TfiRgESdyL6kDYw"
+        }
+    }
+}
