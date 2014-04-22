@@ -9,7 +9,7 @@ Parse.Cloud.define("stripe_charge_customer", function(request, response) {
 	var amount = request.params['amount'];
 
 	Stripe.Charges.create({
-	  amount: amount * 10, // $10 expressed in cents
+	  amount: amount * 100, // dollar amount expressed in cents
 	  currency: "usd",
 	  card: request.params['token'] // the token id should be sent from the client
 	},{
